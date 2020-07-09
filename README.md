@@ -20,3 +20,6 @@ Please send an email containing your solution with a link to a public repository
 
 ### Footnote
 It's possible to generate the API key going to the [OpenWeather Sign up](https://openweathermap.org/appid) page.
+
+
+

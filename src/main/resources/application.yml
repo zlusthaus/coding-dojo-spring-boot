@@ -1,1 +1,21 @@
+hibernate:
+  default_schema: weathersch
 
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+  datasource:
+    platform: postgres
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/weatherapp?currentSchema=weathersch
+    username: weatheruser
+    password: myweatherpass
+
+lusthaus:
+  weather:
+    openweather:
+      baseUrl: http://api.openweathermap.org/data/2.5/weather
+      appId: just-an-app-id-name-doesnt-matter
+      apiKey: 123-alphanumeric-code

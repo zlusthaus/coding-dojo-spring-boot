@@ -1,0 +1,21 @@
+hibernate:
+  dialect: org.hibernate.dialect.H2Dialect
+
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    platform: postgres
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:~/te2st;DB_CLOSE_ON_EXIT=true;MODE=PostgreSQL;INIT=RUNSCRIPT FROM 'classpath:data/schema.sql';DB_CLOSE_DELAY=-1;
+    validate: true
+    username: sa
+    password:
+
+lusthaus:
+  weather:
+    openweather:
+      baseUrl: http://api.openweathermap.org/data/2.5/weather
+      appId: WeatherAppLusthaus
+      apiKey: 0b9543f6ed4b45ede4fcc1e57e038b71
