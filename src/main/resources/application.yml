@@ -18,4 +18,4 @@ lusthaus:
     openweather:
       baseUrl: http://api.openweathermap.org/data/2.5/weather
       appId: just-an-app-id-name-doesnt-matter
-      apiKey: 123-alphanumeric-code
+      apiKey: 0b9543f6ed4b45ede4fcc1e57e038b71
